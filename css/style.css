@@ -1,0 +1,281 @@
+.body{
+    font-family: 'Monserrat';
+}
+
+
+.navbar{
+    background: #171717;
+    font-weight: 600;
+    border-bottom:1px solid #333;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.nav-item.active a{
+    color: #F9B234 !important;
+    font-weight: 400;
+}
+
+.nav-link{
+    font-weight: 200;
+}
+
+.nav-link span{
+    color: #F9B234 ;
+    font-weight: 300;
+}
+
+
+/* Caraousel */
+.carousel{
+    background-color: #171717;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.caraousel h1{
+    font-family: 'Lora';
+}
+
+.caraousel p{
+    font-weight: 200px;
+}
+
+
+
+/* futures */
+
+.futures h5, .designer h5{
+    color: #171717;
+    font-weight: 200px ;
+}
+
+.futures p, .designer p, .footer p{
+    color: #B7B7B7;
+    font-weight: 200px;
+}
+
+.figure-img{
+    position: relative;
+}
+
+.figure-img a{
+    /* absolute supaya gambar berada di atas gambar */
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+}
+
+.figure-img:hover a{
+    opacity: 1;
+}
+
+.breadcrumb{
+    margin-top: 120px;
+    font-weight: 200;
+}
+
+
+.product-thumbnail-container{
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a{
+text-decoration: none;
+
+}
+
+
+
+.btn-product{
+margin: 50px 0;
+padding-bottom: 50px;
+border-bottom: 1px solid #F4F4F4;
+}
+
+.btn-product .btn{
+    display: block;
+    margin: 10px 0;
+}
+
+.designed-by h5, p span{
+    font-size: 14px;
+    font-weight: 200;
+    color: #B7B7B7;
+}
+
+.designed-by h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* deskripsi */
+.description{
+height: 350px;
+background-color: #F6F7FB;
+}
+
+.description .nav-link{
+    font-weight: 200;
+    font-size: 18px;
+    color: #DBDBDB;
+    line-height: 28px;
+}
+
+.description .nav-link.active{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.produk_deskrip p{
+    font-weight: 200;
+    font-size: 16px;
+    color: #868686;
+}
+
+.description .tab-content{
+    background-color: white;
+    line-height: 28px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.produk_riview, .produk_deskrip{
+    height: 300px;
+    overflow: scroll;
+    padding-left: 19px;
+    padding-right: 18px;
+}
+
+.produk_riview h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #868686;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    
+}
+
+.produk_riview p{
+    font-weight: 200;
+    font-size: 14px;
+    color: #868686;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #f1f1f1;
+   
+}
+
+
+/* akhir deskripsi */
+
+
+
+.similar{
+    margin-top: 150px;
+}
+
+.similar h4, .judul h5, .modal-content h5{
+    font-weight: 400px;
+    font-family: 'lora';
+    color: #1B2690;
+    font-size: 28px;
+}
+
+.similar p, .judul p, .modal-content p{
+    font-weight: 200px;
+    color: #B7B7B7;
+    
+}
+
+.list-barang h4{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    
+}
+
+.list-barang p{
+    font-weight: 200px;
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+.checkout{
+    background-color: #F6F7FB;
+    width: 352px;
+    height: 444px;
+}
+
+.btn-checkout{
+    margin-top: 15px;
+    width: 352px;
+}
+
+.btn-checkout .cancel, .modal-content .btn{
+    background-color:#F6F7FB ;
+    color:#ADADAD ;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.btn-checkout .cekout{
+    background-color:#F9B234 ;
+    color:white ;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.btn-checkout .btn{
+    width: 170px;
+    height: 45px;
+
+}
+
+
+.checkout h4{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 0;
+}
+
+.checkout p{
+    font-size: 14px;
+    font-weight: 200px;
+    color: #B7B7B7;
+}
+.barang{
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.address{
+    height: 407px;
+    width: 378px;
+}
+
+.address label{
+    font-weight: 200px;
+    font-size: 14px;
+}
+
+.address ::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ADADAD;
+    
+}
+.address input, .form-select{
+    background-color: #F6F7FB;
+}
